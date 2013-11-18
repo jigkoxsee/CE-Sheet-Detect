@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc5ed288-c6cb-4cd7-956b-77e7ca09444b" name="Default" comment="post data to compare.php">
+    <list default="true" id="bc5ed288-c6cb-4cd7-956b-77e7ca09444b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compare.php" afterPath="$PROJECT_DIR$/compare.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script.js" afterPath="$PROJECT_DIR$/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="csag.iws" />
@@ -51,7 +49,7 @@
       <file leaf-file-name="compare.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/compare.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="186" selection-end="186" vertical-scroll-proportion="0.23946784" vertical-offset="0" max-vertical-offset="451">
+            <state line="11" column="26" selection-start="323" selection-end="336" vertical-scroll-proportion="0.4390244" vertical-offset="0" max-vertical-offset="451">
               <folding />
             </state>
           </provider>
@@ -264,7 +262,11 @@
       <created>1384753183351</created>
       <updated>1384753183351</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finish JSON checker">
+      <created>1384753551887</created>
+      <updated>1384753551887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -299,7 +301,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="post data to compare.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="post data to compare.php" />
+    <MESSAGE value="finish JSON checker" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish JSON checker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -383,7 +386,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/compare.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="186" selection-end="186" vertical-scroll-proportion="0.23946784" vertical-offset="0" max-vertical-offset="451">
+        <state line="11" column="26" selection-start="323" selection-end="336" vertical-scroll-proportion="0.4390244" vertical-offset="0" max-vertical-offset="451">
           <folding />
         </state>
       </provider>
