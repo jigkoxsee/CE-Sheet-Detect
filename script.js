@@ -41,6 +41,7 @@ $.get(subject[0],
                 if(item_link.length){
                     $("body").append("<a href=\"http://www.ce.kmitl.ac.th"+item_link.item(0).getAttribute('href')+"\">link</a><br/>");
                     var sheet   =new Object();
+                    sheet.subject_id=subject_id;
                     sheet.orientation=sheet_row[i].getElementsByTagName('td')[1].innerHTML;//add filename
                     sheet.f_num=parseInt(parseInt(j)-2);
                     //console.log(sheet.f_num);
