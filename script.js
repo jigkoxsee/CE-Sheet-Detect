@@ -1,12 +1,11 @@
-/**
- * Created by ziko on 11/13/13.
- */
-
 //this function use for compare site by site
-function sheet_detection(webpage_file){
+function testttt(id){
+    //alert(id);
+
+}
+function sheet_detection(webpage_file,sj_id){
     $.get(webpage_file,
         function(data) {
-            var subject_id=6;
             var allsheet=new Array();
 
             document.write(data);
@@ -44,7 +43,7 @@ function sheet_detection(webpage_file){
             $.post("compare.php",
                 {
                     data:JSON.stringify(allsheet),
-                    subject_id:subject_id
+                    subject_id:sj_id
                 },
                 function(data,status){
                     //alert("Data: " + data + "\nStatus: " + status);

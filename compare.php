@@ -11,10 +11,10 @@ function isJson($string) {
 $data=$_POST['data'];
 $data=json_decode($data,true);
 if(isJson($data)){
-    echo "JSON OK";
+    echo $_POST['subject_id']."JSON OK";
 }
 else
-    echo "JSON FAIL";
+    echo $_POST['subject_id']."JSON FAIL";
 echo "<br/>";
 
 // compare $data with in MySQL db.
