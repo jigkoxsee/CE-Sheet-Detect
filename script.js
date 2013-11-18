@@ -54,6 +54,13 @@ $.get(subject[0],
 
         }
         console.log(JSON.stringify(allsheet));
+        $.post("compare.php",
+            {
+                data:JSON.stringify(allsheet)
+            },
+            function(data,status){
+                alert("Data: " + data + "\nStatus: " + status);
+            });
 
     }
 );
