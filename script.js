@@ -7,7 +7,8 @@ function sheet_detection(webpage_file,sj_id){
     $.get(webpage_file,
         function(data) {
             var allsheet=new Array();
-
+            //$('body').load(data.getElementsByName('body'));
+            $('body').append(webpage_file);
             document.write(data);
 
             var sheet_table =document.getElementsByTagName('table')[15];
